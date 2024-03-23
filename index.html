@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Desafio Oak Tecnologia</title>
+  </head>
+  <body>
+    <form id="form">
+      <input id="name" name="name" type="text" placeholder="nome" />
+      <input id="description" name="description" type="text" placeholder="descrição" />
+      <input id="price" name="price" type="text" placeholder="valor" />
+      <div class="checkbox-wrapper">
+        <span>Disponivel para venda?</span>
+        <label for="checkbox-true">Sim</label>
+        <input id="checkbox-true" name="checkbox-true" value="true" type="checkbox" checked />
+        <label for="checkbox-false">Não</label>
+        <input id="checkbox-false" name="checkbox-false" value="false" type="checkbox" />
+      </div>
+      <button id="submit-button">Cadastrar Novo Produto</button>
+    </form>
+    <div id="product-grid"></div>
+  </body>
+</html>
